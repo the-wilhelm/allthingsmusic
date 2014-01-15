@@ -38,14 +38,13 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li <?php echo (($page='about') ? 'class="active"' : '' ); ?>><a href="index.php?q=about">About</a></li>
-                                <li <?php echo (($page='bio') ? 'class="active"' : '' ); ?>><a href="index.php?q=bio">Bio</a></li>
-                                <li <?php echo (($page='tuition') ? 'class="active"' : '' ); ?>><a href="index.php?q=tuition">Tuition</a></li>
-                                <li <?php echo (($page='contact') ? 'class="active"' : '' ); ?>><a href="index.php?q=about">Contact</a></li>
+                                <li <?php echo (($page='about') ? 'class="active"' : '' ); ?>><a href="index.php?q=about"><i class="glyphicon glyphicon-headphones"></i>About</a></li>
+                                <li <?php echo (($page='bio') ? 'class="active"' : '' ); ?>><a href="index.php?q=bio"><i class="glyphicon glyphicon-user"></i>Bio</a></li>
+                                <li <?php echo (($page='tuition') ? 'class="active"' : '' ); ?>><a href="index.php?q=tuition"><i class="glyphicon glyphicon-usd"></i>Tuition</a></li>
+                                <li <?php echo (($page='contact') ? 'class="active"' : '' ); ?>><a href="index.php?q=about"><i class="glyphicon glyphicon-earphone"></i>Contact</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div>
                 </nav>    
           </header>
           <div class="content">
-                <div class="container">
