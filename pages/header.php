@@ -41,7 +41,7 @@
                                 <li <?php echo (($page='about') ? 'class="active"' : '' ); ?>><a href="index.php?q=about"><i class="glyphicon glyphicon-headphones"></i>About</a></li>
                                 <li <?php echo (($page='bio') ? 'class="active"' : '' ); ?>><a href="index.php?q=bio"><i class="glyphicon glyphicon-user"></i>Bio</a></li>
                                 <li <?php echo (($page='tuition') ? 'class="active"' : '' ); ?>><a href="index.php?q=tuition"><i class="glyphicon glyphicon-usd"></i>Tuition</a></li>
-                                <li <?php echo (($page='contact') ? 'class="active"' : '' ); ?>><a href="index.php?q=about"><i class="glyphicon glyphicon-earphone"></i>Contact</a></li>
+                                <li <?php echo (($page='contact') ? 'class="active"' : '' ); ?>><a href="index.php?q=contact"><i class="glyphicon glyphicon-earphone"></i>Contact</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div>
